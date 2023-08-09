@@ -9,15 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("I Am Rich")
-                .font(.system(size: 40))
-                .italic()
+        ZStack {
+            Color(red: 0.10, green: 0.74, blue: 0.61)
+                .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            VStack {
+                Image(systemName: "book")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text("I Am Rich")
+                    .font(.system(size: 40))
+                    .foregroundColor(Color.red)
+                    .italic()
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
