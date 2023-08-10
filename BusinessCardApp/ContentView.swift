@@ -16,10 +16,10 @@ struct ContentView: View {
                 Image(systemName: "book")
                     .imageScale(.large)
                     .foregroundColor(.accentColor)
-                Text("I Am Rich")
-                    .font(.system(size: 40))
-                    .foregroundColor(Color.red)
-                    .italic()
+                Text("Gavin Sargent")
+                    .font(Font.custom("Bilbo-Regular.ttf", size: 40))
+                    .foregroundColor(Color.black)
+                    .bold()
             }
             .padding()
         }
