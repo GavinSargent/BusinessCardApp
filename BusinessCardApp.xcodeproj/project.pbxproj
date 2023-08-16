@@ -12,6 +12,7 @@
 		A51CDA042A830321005577FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51CDA032A830321005577FF /* Assets.xcassets */; };
 		A51CDA072A830321005577FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51CDA062A830321005577FF /* Preview Assets.xcassets */; };
 		A51CDA0F2A8453F7005577FF /* Bilbo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A51CDA0E2A8453F7005577FF /* Bilbo-Regular.ttf */; };
+		A57924B92A8D8F74006903B2 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57924B82A8D8F74006903B2 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A51CDA062A830321005577FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A51CDA0E2A8453F7005577FF /* Bilbo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Bilbo-Regular.ttf"; path = "../../../../../Downloads/Bilbo/Bilbo-Regular.ttf"; sourceTree = "<group>"; };
 		A51CDA132A85A745005577FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A57924B82A8D8F74006903B2 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				A51CDA0D2A8453E8005577FF /* fonts */,
 				A51CD9FF2A830320005577FF /* BusinessCardApp.swift */,
 				A51CDA012A830320005577FF /* ContentView.swift */,
+				A57924B82A8D8F74006903B2 /* InfoView.swift */,
 				A51CDA032A830321005577FF /* Assets.xcassets */,
 				A51CDA052A830321005577FF /* Preview Content */,
 			);
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A51CDA022A830320005577FF /* ContentView.swift in Sources */,
+				A57924B92A8D8F74006903B2 /* InfoView.swift in Sources */,
 				A51CDA002A830320005577FF /* BusinessCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
