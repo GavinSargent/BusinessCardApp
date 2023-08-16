@@ -21,6 +21,7 @@
 		A51CDA032A830321005577FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A51CDA062A830321005577FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A51CDA0E2A8453F7005577FF /* Bilbo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Bilbo-Regular.ttf"; path = "../../../../../Downloads/Bilbo/Bilbo-Regular.ttf"; sourceTree = "<group>"; };
+		A51CDA132A85A745005577FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +54,7 @@
 		A51CD9FE2A830320005577FF /* BusinessCardApp */ = {
 			isa = PBXGroup;
 			children = (
+				A51CDA132A85A745005577FF /* Info.plist */,
 				A51CDA0D2A8453E8005577FF /* fonts */,
 				A51CD9FF2A830320005577FF /* BusinessCardApp.swift */,
 				A51CDA012A830320005577FF /* ContentView.swift */,
@@ -282,6 +284,9 @@
 				DEVELOPMENT_TEAM = PYJTS2FY9Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BusinessCardApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,6 +316,9 @@
 				DEVELOPMENT_TEAM = PYJTS2FY9Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BusinessCardApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
