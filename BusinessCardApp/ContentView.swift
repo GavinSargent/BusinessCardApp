@@ -28,15 +28,17 @@ struct ContentView: View {
                     .foregroundColor(Color(uiColor: UIColor(red: 0.95, green: 0.77, blue: 0.06, alpha: 1.00)))
                     .font(.system(size: 25))
                 Divider()
-                ZStack{
-                    Capsule()
-                        .foregroundColor(Color.white)
-                        .frame(height: 40)
-                        .padding()
-                    Text("801-906-3827")
-                        .foregroundColor(Color.black)
-                        
-                }
+                Capsule()
+                    .fill(Color.white)
+                    .frame(height: 40)
+                    .padding()
+                    .overlay(
+                        HStack{
+                            Image(systemName: "phone.fill")
+                                .foregroundColor(Color(uiColor: UIColor(red: 0.10, green: 0.74, blue: 0.61, alpha: 1.00)))
+                            Text("801-906-3827")
+                        }
+                    )
             }
             .padding()
         }
